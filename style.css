@@ -25,8 +25,8 @@ li {
   font-weight: 100;
   line-height: 19px;
 }
-li:first-letter{
-    text-transform: capitalize;
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
@@ -62,3 +62,11 @@ li:first-letter{
   font-size: 16px;
   top: -34px;
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+
